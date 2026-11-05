@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: API de Cuentas Bancarias
-  version: "" # LAB: sustituir por 1.0.0
+  version: "1.0.0" # LAB: sustituir por 1.0.0
   description: API educativa para consultar cuentas bancarias ficticias del laboratorio guiado.
   contact:
     name: Equipo API
@@ -14,6 +14,7 @@ paths:
       tags: [Cuentas]
       summary: Consultar cuentas de un cliente
       # LAB: descomentar operationId: listarCuentasCliente
+      operationId: listarCuentasCliente
       parameters:
         - name: cliente-id
           in: path
