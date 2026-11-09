@@ -12,7 +12,7 @@ paths:
   /clientes/{cliente-id}/cuentas:
     post:
       tags: [Cuentas]
-      summary: Crear una cuenta simulada
+      summary: Crear una cuenta simulada jmamanic
       operationId: crearCuentaCliente
       parameters:
         - name: cliente-id
